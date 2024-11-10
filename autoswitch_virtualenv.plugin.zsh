@@ -394,6 +394,7 @@ function install_requirements() {
             pip install -r "$requirements"
         fi
     done
+    pip install greenlet pyright pynvim
 }
 
 
